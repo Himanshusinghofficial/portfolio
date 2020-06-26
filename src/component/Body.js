@@ -57,3 +57,11 @@ class Body extends Component {
 }
 
 export default Body;
+
+
+
+
+{/* <div class="card" style={{width:'250px'}}>
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body"></div>
+</div> */}

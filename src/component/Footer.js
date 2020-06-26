@@ -68,7 +68,7 @@ const Footer = () => {
                             <h6 class="text-uppercase font-weight-bold">Courses</h6>
                             <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: '60px' }}></hr>
                             <p>
-                                <a href="https://online.codingblocks.com/courses/web-development-online-course" style={{ color: 'white' }}>Coding blocks(fFull Stack)</a>
+                                <a href="https://online.codingblocks.com/courses/web-development-online-course" style={{ color: 'white' }}>Coding blocks(Full Stack)</a>
                             </p>
                             <p>
                                 <a href="https://www.udemy.com/course/the-web-developer-bootcamp/" style={{ color: 'white' }}>Udemy(Full Stack)</a>

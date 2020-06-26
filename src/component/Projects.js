@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'react-bootstrap/Image'
 
 export const Projects = () => {
     return (
@@ -18,14 +19,22 @@ export const Projects = () => {
                     <a className="btn btn-danger my-2" target="_blank" href="#">Visit Website</a>
 
                 </div>
-                <div className='col-lg-6 col-sm-12'>
-                    <img src="https://www.tutorialrepublic.com/lib/images/javascript-illustration.png" alt="java script" style={{ width: '420px', height: '250px' }}></img>
+
+                <div className='col-lg-6 col-sm-12 col-xs-12'>
+                    {/* <img src="https://www.tutorialrepublic.com/lib/images/javascript-illustration.png" class="img-responsive" alt="java script" style={{ width: '350px', height: '250px' }}></img> */}
+                    <Image src="https://www.tutorialrepublic.com/lib/images/javascript-illustration.png" fluid />
                 </div>
             </div>
             <div className='row mx-1 my-2'>
                 <div className='col-lg-6 col-sm-12'>
-                    <img src="https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg" alt="java script" style={{ width: '420px', height: '250px' }}></img>
+                    {/* <img src="https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg" class="img-responsive" alt="java script" style={{ width: '350px', height: '250px' }}></img> */}
+                    <Image src="https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg" fluid />
                 </div>
+                {/* <div class="imgwrapper">
+                    <img src="https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg"
+                        class="img-responsive" alt="Responsive image"
+                        width="450" height="250" />
+                </div> */}
                 <div className='col-lg-6 col-sm-12'>
 
                     <h3>IT Login</h3>
@@ -48,7 +57,8 @@ export const Projects = () => {
 
                 </div>
                 <div className='col-lg-6 col-sm-12'>
-                    <img src="https://www.tutorialrepublic.com/lib/images/javascript-illustration.png" alt="java script" style={{ width: '420px', height: '250px' }}></img>
+                    {/* <img src="https://www.tutorialrepublic.com/lib/images/javascript-illustration.png" class="img-responsive" alt="java script" style={{ width: '350px', height: '250px' }}></img> */}
+                    <Image src="https://www.tutorialrepublic.com/lib/images/javascript-illustration.png" fluid />
                 </div>
             </div>
         </div>
