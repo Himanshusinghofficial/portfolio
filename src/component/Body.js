@@ -41,9 +41,9 @@ class Body extends Component {
                     <div class="small-12 column" style={{ marginTop: '10px' }}>
 
                         <a href="https://github.com/Himanshusinghofficial" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}><i className="fab fa-github-alt fa-2x" ></i><small>Github</small></a>
-                        <a href="https://www.instagram.com/himanshusingh881042/" target="_blank" rel="noopener noreferrer" style={{ color: '#fb3958' }}><i className="fab fa-instagram fa-2x" style={{ padding: '0 0 0 3px' }}></i><small>Instagram</small></a>
-                        <a href="https://www.facebook.com/profile.php?id=100007468666513" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}><i className='fab fa-facebook fa-2x' style={{ padding: '0 0 0 3px' }}></i><small>Facebook</small></a>
-                        <a href="https://www.linkedin.com/in/himanshu-singh-216978172/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x" style={{ padding: '0 0 0 3px' }}></i><small>Linkedin</small></a>
+                        <a href="https://www.instagram.com/himanshusingh881042/" target="_blank" rel="noopener noreferrer" style={{ color: '#fb3958' }}><i className="fab fa-instagram fa-2x" style={{ padding: '0 0 0 2px' }}></i><small>Instagram</small></a>
+                        <a href="https://www.facebook.com/profile.php?id=100007468666513" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}><i className='fab fa-facebook fa-2x' style={{ padding: '0 0 0 2px' }}></i><small>Facebook</small></a>
+                        <a href="https://www.linkedin.com/in/himanshu-singh-216978172/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x" style={{ padding: '0 0 0 2px' }}></i><small>Linkedin</small></a>
                     </div>
 
 
