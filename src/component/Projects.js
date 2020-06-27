@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image'
+import gitfinder from './image/gitfinder.png'
 
 export const Projects = () => {
     return (
@@ -22,13 +23,13 @@ export const Projects = () => {
 
                 <div className='col-lg-6 col-sm-12 col-xs-12'>
                     {/* <img src="https://www.tutorialrepublic.com/lib/images/javascript-illustration.png" class="img-responsive" alt="java script" style={{ width: '350px', height: '250px' }}></img> */}
-                    <Image src="https://www.tutorialrepublic.com/lib/images/javascript-illustration.png" fluid />
+                    <Image src="https://www.tutorialrepublic.com/lib/images/javascript-illustration.png" fluid style={{ height: '250px' }} />
                 </div>
             </div>
             <div className='row mx-1 my-2'>
                 <div className='col-lg-6 col-sm-12'>
                     {/* <img src="https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg" class="img-responsive" alt="java script" style={{ width: '350px', height: '250px' }}></img> */}
-                    <Image src="https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg" fluid />
+                    <Image src="https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg" fluid style={{ height: '250px' }} />
                 </div>
                 {/* <div class="imgwrapper">
                     <img src="https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg"
@@ -53,12 +54,12 @@ export const Projects = () => {
                     <p style={{ color: 'rgb(255, 138, 89)' }}><i class="fa fa-desktop px-2"></i><i class="fa fa-tablet px-3"></i><i class="fas fa-mobile-alt"></i></p>
                     <p>So this is Basic web application of React<br></br>
                       I used github API to fatch github user to display on my web-page also displaying all repos of user</p>
-                    <a className="btn btn-danger my-2" target="_blank" href="#">Visit Website</a>
+                    <a className="btn btn-danger my-2" target="_blank" href="https://himanshusinghofficial.github.io/gitfinder/">Visit Website</a>
 
                 </div>
                 <div className='col-lg-6 col-sm-12'>
                     {/* <img src="https://www.tutorialrepublic.com/lib/images/javascript-illustration.png" class="img-responsive" alt="java script" style={{ width: '350px', height: '250px' }}></img> */}
-                    <Image src="https://www.tutorialrepublic.com/lib/images/javascript-illustration.png" fluid />
+                    <Image src={gitfinder} fluid style={{ height: '250px' }} />
                 </div>
             </div>
         </div>

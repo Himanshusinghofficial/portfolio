@@ -1,40 +1,36 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
 import Navbar from './component/Navbar'
-import Middlebody from "./component/Middlebody";
-import Body from "./component/Body"
-import Footer from './component/Footer';
-import { Projects } from './component/Projects';
-import Working from './component/Working';
-import Wannawork from './component/Wannawork';
-import Comment from './component/Comment'
+// import Middlebody from "./component/Middlebody";
+// import Body from "./component/Body"
+// import Footer from './component/Footer';
+// import { Projects } from './component/Projects';
+// import Working from './component/Working';
+// import Wannawork from './component/Wannawork';
+// import Comment from './component/Comment'
 import Page from './component/Page'
 import Home from './component/Home'
+import AppRoute from './AppRoute'
 
-function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <div className="container" style={{ backgroundColor: '#d4d1cd' }}>
-          <Body />
-          <Middlebody />
-          <Projects />
-          <Working />
-          <Wannawork />
-          <Comment />
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Navbar />
           <Switch>
-            <Route exact path='/'></Route>
-            <Router exact path='/WorkInProgress' component={Page}></Router>
-            <Router component={Home}></Router>
+            <Route exact path='/' component={AppRoute}></Route>
+            <Route exact path='/home' component={AppRoute}></Route>
+            <Route exact path='/skills' component={Page}></Route>
+            <Route exact path='/comment' component={Page}></Route>
+            <Route exact path='/about' component={Page}></Route>
+            <Route component={Home}></Route>
           </Switch>
         </div>
-
-        <Footer />
-      </div>
-    </Router>
-  );
+      </Router >
+    );
+  }
 }
 
 export default App;
