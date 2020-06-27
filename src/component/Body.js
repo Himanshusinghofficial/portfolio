@@ -14,7 +14,7 @@ class Body extends Component {
     render() {
         return (
 
-            <div className='card' style={{ marginTop: "85px" }}>
+            <div className='card' style={{ marginTop: "55px" }}>
                 <img class="card-img-top " src={Image} alt="Card cap" style={{ height: '350px' }} />
                 <div class="card-body">
                     <div className='row'>
