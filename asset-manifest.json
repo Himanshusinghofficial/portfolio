@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0ee44cfa.chunk.css",
-    "main.js": "/Portfolio/static/js/main.47fe3c0b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.47fe3c0b.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.effc0713.chunk.css",
+    "main.js": "/Portfolio/static/js/main.b0c28059.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.b0c28059.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.7c70dee3.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.7c70dee3.js.map",
-    "static/js/2.0d8883bf.chunk.js": "/Portfolio/static/js/2.0d8883bf.chunk.js",
-    "static/js/2.0d8883bf.chunk.js.map": "/Portfolio/static/js/2.0d8883bf.chunk.js.map",
+    "static/js/2.7e4683e4.chunk.js": "/Portfolio/static/js/2.7e4683e4.chunk.js",
+    "static/js/2.7e4683e4.chunk.js.map": "/Portfolio/static/js/2.7e4683e4.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.e69b70b667580d967fae4b56f637bc2f.js": "/Portfolio/precache-manifest.e69b70b667580d967fae4b56f637bc2f.js",
+    "precache-manifest.8415c6510b8a8f9b993ebd0a83a0f33f.js": "/Portfolio/precache-manifest.8415c6510b8a8f9b993ebd0a83a0f33f.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.0ee44cfa.chunk.css.map": "/Portfolio/static/css/main.0ee44cfa.chunk.css.map",
-    "static/js/2.0d8883bf.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.0d8883bf.chunk.js.LICENSE.txt",
-    "static/media/gitfinder.png": "/Portfolio/static/media/gitfinder.60a2f6da.png",
+    "static/css/main.effc0713.chunk.css.map": "/Portfolio/static/css/main.effc0713.chunk.css.map",
+    "static/js/2.7e4683e4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.7e4683e4.chunk.js.LICENSE.txt",
+    "static/media/contactkeeper.png": "/Portfolio/static/media/contactkeeper.f8946288.png",
+    "static/media/gitfinder.png": "/Portfolio/static/media/gitfinder.21aa95df.png",
+    "static/media/itlogger.png": "/Portfolio/static/media/itlogger.75ec81b1.png",
     "static/media/mernstack.jpg": "/Portfolio/static/media/mernstack.6344f92a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7c70dee3.js",
-    "static/js/2.0d8883bf.chunk.js",
-    "static/css/main.0ee44cfa.chunk.css",
-    "static/js/main.47fe3c0b.chunk.js"
+    "static/js/2.7e4683e4.chunk.js",
+    "static/css/main.effc0713.chunk.css",
+    "static/js/main.b0c28059.chunk.js"
   ]
 }
