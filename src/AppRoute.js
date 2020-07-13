@@ -9,6 +9,7 @@ import { Projects } from './component/Projects';
 import Working from './component/Working';
 import Wannawork from './component/Wannawork';
 import Comment from './component/Comment'
+// import Comments from './component/Comments'
 
 
 class AppRoute extends Component {
@@ -60,7 +61,8 @@ class AppRoute extends Component {
                     <Projects />
                     <Working />
                     <Wannawork />
-                    <Comment />
+                    <Comment id="clickhere" />
+                    {/* <Comments /> */}
                 </div>
                 <Footer />
             </div>

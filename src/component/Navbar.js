@@ -12,7 +12,7 @@ const User = () => {
                         <Link to="/home"><i className="fas fa-user-graduate" style={{ color: 'white' }} > Portfolio</i></Link>
                     </h2>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ borderColor: 'white' }} />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                     </Nav>
