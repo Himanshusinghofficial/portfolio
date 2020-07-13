@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Progress from './Progress';
-import Navbar from './component/Navbar'
 import Middlebody from "./component/Middlebody";
 import Body from "./component/Body"
 import Footer from './component/Footer';
@@ -53,7 +52,6 @@ class AppRoute extends Component {
     render() {
         return (
             <div className="App">
-                <Navbar />
                 <Progress scroll={this.state.scrollPostion + '%'} style={{}} />
                 <div className="container" style={{ backgroundColor: '#d4d1cd' }}>
                     <Body />
@@ -61,7 +59,7 @@ class AppRoute extends Component {
                     <Projects />
                     <Working />
                     <Wannawork />
-                    <Comment id="clickhere" />
+                    <Comment />
                     {/* <Comments /> */}
                 </div>
                 <Footer />

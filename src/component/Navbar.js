@@ -5,14 +5,14 @@ import { Navbar, Nav } from 'react-bootstrap'
 const User = () => {
     // render() {
     return (
-        <Navbar collapseOnSelect expand="lg" className="navbar-fixed-top" style={{ backgroundColor: '#e33d53', padding: '0 20px 0 20px' }}>
+        <Navbar collapseOnSelect expand="lg" fixed="top" style={{ backgroundColor: '#e33d53', padding: '0 20px 0 20px' }}>
             <div className="container">
                 <Navbar.Brand>
                     <h2>
                         <Link to="/home"><i className="fas fa-user-graduate" style={{ color: 'white' }} > Portfolio</i></Link>
                     </h2>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ borderColor: 'white' }} />
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ borderColor: 'white', Color: 'white' }} />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                     </Nav>
@@ -33,7 +33,7 @@ const User = () => {
                         </ul>
                         <form class="form-inline my-2 my-lg-0" >
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
-                            <button class="btn my-2 my-sm-0" type="submit" style={{ borderColor: 'white', color: 'white' }}>Search</button>
+                            <button class="btn my-2 my-sm-0" type="submit" style={{ backgroundColor: '#e33d53', borderColor: 'white', color: 'white' }}>Search</button>
                         </form>
                     </Nav>
                 </Navbar.Collapse>
